@@ -1,0 +1,33 @@
+:root {
+  --black: #000000;
+  --gray: #e6e6e6;
+  --blue: #3399ff;
+  --white: #ffffff;
+
+  font-family: "Century Gothic";
+}
+
+.nav {
+  background-color: white;
+}
+
+body {
+  font-size: 20px;
+  color: var(--black);
+  background-color: white;
+}
+
+.section {
+  position: flex;
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+  margin: 15px;
+  border: 10px solid var(--blue);
+  background: var(--black);
+  color: var(--white);
+}
+
+footer {
+  text-align: center;
+}
